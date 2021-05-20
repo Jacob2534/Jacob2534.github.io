@@ -151,7 +151,7 @@ footer {padding-top: 16px;
         padding-right: 16px;
         padding-left: 16px;
         border-top: 32px;
-        color: #333;
-        font-style: solid;}
+        border-top: #333;
+        border-top: solid;}
 
 
