@@ -92,7 +92,7 @@ header, footer {
 
 /* Typography Styles */
 
-html {}
+html {font-family: 'josefinslab-regular';}
 
 h1 {
     font-family: 'josefinslab-regular';
@@ -108,15 +108,13 @@ h2 {font-family:'josefinslab-regular';
     font-size: 1.5rem;
     }
 
-h2 + p {font-family: 'montserrat-regular';
-    font-size: 0.75rem;
+h2 + p {font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
     text-indent: 1.5rem
 }
 
-p {font-family: 'montserrat-regular';
-    font-size: 0.75rem;
+p {font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
     text-indent: 1.5rem;
