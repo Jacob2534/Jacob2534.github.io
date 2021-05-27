@@ -92,10 +92,10 @@ header, footer {
 
 /* Typography Styles */
 
-html {}
+html {font-family: 'montserrat-regular', sans-serif;}
 
 h1 {
-    font-family: 'josefinslab-regular';
+    font-family: 'josefinslab-regular',serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
@@ -103,33 +103,29 @@ h1 {
     
 }
 
-h2 {font-family:'josefinslab-regular';
+h2 {font-family:'josefinslab-regular', serif;
     letter-spacing: 0.125rem;
     font-size: 1.5rem;
     }
 
-h2 + p {font-family: 'montserrat-regular';
-    font-size: 0.75rem;
+h2 + p {font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
     text-indent: 1.5rem
 }
 
-p {font-family: 'montserrat-regular';
-    font-size: 0.75rem;
+p {font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
     
 }
 
-li {font-family: 'montserrat-regular';
-    font-size: 0.75rem;
+li {font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
 }
 
-figcaption {font-family: 'montserrat-regular';
-            font-size: 0.75rem;
+figcaption {font-size: 0.75rem;
             margin-bottom: 2rem;
         }
            
