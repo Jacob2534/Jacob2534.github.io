@@ -92,7 +92,7 @@ header, footer {
 
 /* Typography Styles */
 
-html {font-family: 'josefinslab-regular';}
+html {font-family: 'montserrat-regular';}
 
 h1 {
     font-family: 'josefinslab-regular';
@@ -125,7 +125,7 @@ li {font-size: 0.75rem;
     word-spacing: 0.125rem;
 }
 
-figcaption {font-family: 'montserrat-regular';
+figcaption {
             font-size: 0.75rem;
             margin-bottom: 2rem;
         }
