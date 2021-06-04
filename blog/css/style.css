@@ -73,11 +73,11 @@ figcaption {
 html {font-family: 'Ultra-Regular';}
 
 h1 {font-family: 'Ultra-Regular';
-    letter-spacing: 0.125rem;
+    letter-spacing: auto;
     text-align: center;
     transform: rotate(-10deg);
     position: relative;
-    font-size: 2rem ;
+    font-size: auto;
     margin: 1.125rem;
 }
 
@@ -86,7 +86,7 @@ span{
     padding: 1rem;
     background-color: #991919;
     border-radius: 1rem 3.5rem;
-    box-shadow: black;
+    box-shadow: rgb(250, 249, 249);
     box-shadow: 0.3rem 0.6rem;
     
 }
@@ -188,11 +188,6 @@ nav a:nth-child(odd):hover {
     text-decoration-line: line-through;
     transform: rotate(10deg);
 }
-
-aside { 
-    
-}
-
 
 
 footer {
