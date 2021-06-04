@@ -52,7 +52,7 @@ h1 {
     text-align: center;
     transform: rotate(-10deg);
     position: relative;
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 span{
@@ -135,12 +135,6 @@ header, footer {
 
 html{font-family: Arial, Helvetica, sans-serif;}
 
-h1{letter-spacing: .5rem;
-    font:Ultra-Regular ;
-    text-align: center;
-
-
-}
 
 footer {
     text-align: right;
