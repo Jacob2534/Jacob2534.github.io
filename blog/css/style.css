@@ -132,13 +132,11 @@ h3 {
 }
 
 .right {
-    float: right;
     width: 25%;
     
 }
 
 .row::after {
-    content: "";
     clear: both;
     display: flex;
     justify-content: space-around;
