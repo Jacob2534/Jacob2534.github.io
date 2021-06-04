@@ -79,6 +79,17 @@ span {
     color: white;
 }
 
+h2 {
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 0px;
+
+}
+
 .nav {
     border: 2px solid black;
 }
@@ -107,7 +118,7 @@ li {
 
 .left p, b {
     margin: 10px 30px;
-    font-family: cursive;
+    font-family: sans-serif;
     font-size: 18px;
 }
 
