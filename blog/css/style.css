@@ -146,7 +146,7 @@ h3 {
     margin: 1rem;
     padding: 0;
     background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
+    border-bottom: .125rem solid black;
 }
 #nav ul {
     list-style: none;
@@ -188,8 +188,7 @@ nav a:nth-child(odd):hover {
 }
 
 header, footer {
-    border-top: .125rem solid #33658a;
-    border-bottom: .125rem solid #33658a;
+    border-bottom: .125rem solid black;
 }
 
 .container {
