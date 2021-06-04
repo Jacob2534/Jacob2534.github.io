@@ -146,6 +146,7 @@ h3 {
     margin: 1rem;
     padding: 0;
     background-color: #f2f2f2;
+    border-top:  0.125rem black;
     border-bottom: .125rem solid black;
 }
 #nav ul {
@@ -187,9 +188,7 @@ nav a:nth-child(odd):hover {
     transform: rotate(10deg);
 }
 
-header, footer {
-    border-bottom: .125rem solid black;
-}
+
 
 .container {
     display: flex;
@@ -199,4 +198,6 @@ header, footer {
 
 footer {
     text-align: right;
+    border-top:  0.125rem black;
+    border-bottom: .125rem solid black;
 }
