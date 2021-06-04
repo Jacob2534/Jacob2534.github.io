@@ -122,7 +122,7 @@ h3 {
 
 .column {
     float: left;
-    width: fit-content;
+    width: 50%;
     padding: 5px;
     align-content: center;
 }
