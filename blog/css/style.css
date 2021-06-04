@@ -48,6 +48,22 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+h1 {
+    text-align: center;
+    transform: rotate(10deg);
+    position: relative;
+    font-size: 3.5rem;
+}
+
+span1{
+    text-decoration-color: solid #706969;
+    padding: 1rem;
+    background-color: #991919;
+    border-radius: 1rem 3.5rem;
+    box-shadow: black;
+    box-shadow: 0.3rem 0.6rem;
+}
+
 .column {
     float: left;
 }
