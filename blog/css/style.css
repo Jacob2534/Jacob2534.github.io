@@ -121,17 +121,18 @@ h3 {
 
 
 .column {
-    float: left;
     padding: 10px;
     height: 300px;
 }
 
 .left {
+    float: left;
     width: 75%;
     
 }
 
 .right {
+    float: right;
     width: 25%;
     
 }
