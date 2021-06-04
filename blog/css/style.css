@@ -48,4 +48,13 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+header, footer {
+    border-top: .125rem solid #33658a;
+    border-bottom: .125rem solid #33658a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
 
