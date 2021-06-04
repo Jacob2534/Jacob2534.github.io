@@ -48,11 +48,37 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-h1 {
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+@font-face {
+    font-family: 'Ultra-Regular';
+    src: url(../fonts/Ultra-Regular.ttf) format('truetype') ; 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {font-family: 'Ultra-Regular';}
+
+h1 {font-family: 'Ultra-Regular';
+    letter-spacing: 0.125rem;
     text-align: center;
     transform: rotate(-10deg);
     position: relative;
-    font-size: 2.5rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
 }
 
 span{
@@ -63,6 +89,32 @@ span{
     box-shadow: black;
     box-shadow: 0.3rem 0.6rem;
 }
+
+h2 {font-family: 'Ultra-Regular';
+    letter-spacing: 00.125rem;
+    font-size: 1.5rem;
+
+}
+
+h2 + p {font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem;
+    text-indent: 1.5rem;
+}  
+
+p {font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem;
+    
+}
+
+h3 {
+    font-size: 0.25rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem;
+}
+
+
 
 .column {
     float: left;
