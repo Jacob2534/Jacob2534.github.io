@@ -122,7 +122,7 @@ h3 {
 
 .column {
     padding: 10px;
-    height: 300px;
+    height: auto;
 }
 
 .left {
@@ -191,7 +191,7 @@ nav a:nth-child(odd):hover {
 
 
 footer {
-    text-align: right;
+    text-align: center;
     border-top:  0.125rem black;
     border-bottom: .125rem solid black;
 }
