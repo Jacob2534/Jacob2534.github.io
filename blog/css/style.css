@@ -50,7 +50,7 @@
 
 h1 {
     text-align: center;
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
     position: relative;
     font-size: 3.5rem;
 }
