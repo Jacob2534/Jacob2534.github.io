@@ -139,8 +139,9 @@ h3 {
 
 .row::after {
     content: "";
-    display: table;
     clear: both;
+    display: flex;
+    justify-content: space-around;
 }
 
 #nav {
@@ -191,12 +192,10 @@ nav a:nth-child(odd):hover {
     transform: rotate(10deg);
 }
 
-
-
-.container {
-    display: flex;
-    justify-content: space-around;
+aside { 
+    
 }
+
 
 
 footer {
