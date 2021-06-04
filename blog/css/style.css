@@ -48,6 +48,18 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+.column {
+    float: left;
+}
+
+.left {
+    width: 75%;
+}
+
+.right {
+    width: 25%;
+}
+
 #nav {
     width: 100%;
     float: left;
