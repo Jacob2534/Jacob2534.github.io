@@ -122,7 +122,7 @@ h3 {
 
 .column {
     float: left;
-    width: auto;
+    width: fit-content;
     padding: 5px;
     align-content: center;
 }
@@ -134,13 +134,13 @@ h3 {
 }
 
 .left {
-    width: 80%;
-    text-align: left;
+    width: 75%;
+    
 }
 
 .right {
-    width: 20%;
-    text-align: right;
+    width: 25%;
+    
 }
 
 #nav {
