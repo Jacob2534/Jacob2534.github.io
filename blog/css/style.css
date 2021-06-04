@@ -48,65 +48,17 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-*{
-    box-sizing: border-box;
+
+nav a:nth-child(even):hover{
+    color: black;
+    text-decoration-line: line-through;
+    transform: rotate(-10deg);
 }
 
-html {
-    font-size:16px;
-}
-
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
-}
-
-/* Layout */
-
-main {
-    overflow:auto;
-    min-width:45rem;
-    
-}
-
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
-}
-
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
-}
-
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-
-figcaption {
-    margin:.375rem 0;
-}
-
-.long-list {
-    margin-top:0;
-}
-
-nav {
-    float: left;
-    width:11.25rem;
-}
-
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
-
-section, aside, nav, footer {
-  padding: .5rem;
+nav a:nth-child(odd):hover {
+    color: black;
+    text-decoration-line: line-through;
+    transform: rotate(10deg);
 }
 
 header, footer {
@@ -119,3 +71,11 @@ header, footer {
     justify-content: space-around;
 }
 
+html{font-family: Arial, Helvetica, sans-serif;}
+
+h1{letter-spacing: .5rem;
+    font:Ultra-Regular ;
+    text-align: center;
+
+
+}
