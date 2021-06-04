@@ -48,6 +48,13 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+div.c {
+    text-decoration-line: line-through;
+    width: 150px;
+    height: 80px;
+    transform: rotate(10deg);
+}
+
 header, footer {
     border-top: .125rem solid #33658a;
     border-bottom: .125rem solid #33658a;
