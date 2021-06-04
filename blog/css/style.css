@@ -122,15 +122,8 @@ h3 {
 
 .column {
     float: left;
-    width: 50%;
-    padding: 5px;
-    align-content: center;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+    padding: 10px;
+    height: 300px;
 }
 
 .left {
@@ -141,6 +134,12 @@ h3 {
 .right {
     width: 25%;
     
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #nav {
